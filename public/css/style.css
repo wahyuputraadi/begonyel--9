@@ -1,0 +1,187 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+.detailproduct .bg-breadcrumb,
+.listProduct .bg-breadcrumb {
+    background-color: #efefefef;
+}
+
+.home .menu-kami h1,
+.detailproduct .menu-kami h1,
+.home .lihat-semua h1 {
+    font-size: 25px;
+}
+
+.home .fa-eye {
+    color: #EC982E;
+}
+
+.listProduct .fa-home,
+.detailproduct .fa-home,
+.keranjang .fa-home {
+    color: #EC982E;
+}
+
+.listProduct a,
+.detailproduct a,
+.keranjang a {
+    text-decoration: none;
+    color: black;
+}
+
+.listProduct a:hover,
+.detailproduct a:hover,
+.keranjang a:hover {
+    color: #c77919;
+}
+
+.detailproduct .img-carousel {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.detailproduct .carousel-indicators {
+    justify-content: center;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.detailproduct .carousel .fa-arrow-circle-left {
+    font-size: 40px;
+    margin-left: -130%;
+    color: #EC982E;
+    border-radius: 50px;
+}
+
+.detailproduct .carousel .fa-arrow-circle-right {
+    font-size: 40px;
+    margin-left: 130%;
+    color: #EC982E;
+}
+
+#app {
+    font-family: "Poppins";
+}
+
+#app .header .logo {
+    width: 209px;
+    height: auto;
+}
+
+#app .header .logo {
+    width: 209px;
+    height: auto;
+}
+
+#app .header .fa-shopping-bag {
+    color: #EC982E;
+}
+
+
+/* banner */
+
+.banner h1 {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.banner h3 {
+    font-size: 25px;
+    color: #EC982E;
+}
+
+.banner span {
+    font-weight: lighter;
+}
+
+.banner .img-banner {
+    width: 100%;
+    height: auto;
+}
+
+.banner .text-banner {
+    margin-left: 23%;
+}
+
+.banner .btn-light {
+    border-radius: 50px;
+    border: none;
+}
+
+.banner .btn-warning,
+.detailproduct .btn-warning,
+.keranjang .btn-warning,
+.success .btn-warning {
+    border-radius: 50px;
+    color: white;
+    border: none;
+}
+
+
+/* carousel */
+
+.carousel-indicators {
+    justify-content: start;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel .fa-arrow-circle-left {
+    font-size: 40px;
+    margin-left: -110%;
+    color: #EC982E;
+    border-radius: 50px;
+}
+
+.carousel .fa-arrow-circle-right {
+    font-size: 40px;
+    margin-left: 110%;
+    color: #EC982E;
+}
+
+
+/* List menu */
+
+.listMenu .btn-warning {
+    background: #EC982E;
+    border-radius: 50px;
+    border: none;
+    color: white;
+}
+
+.listMenu .btn-warning:hover {
+    background: #bb731a;
+    border-radius: 50px;
+    border: none;
+    color: white;
+}
+
+.listMenu .menu {
+    box-shadow: 0px 4px 10px 0px #0000001f;
+    border-radius: 20px;
+}
+
+
+/* footer */
+
+.footer .bg-footer {
+    background-color: #efeffe;
+    margin-bottom: 50px;
+}
+
+.footer .bg-footer h1 {
+    font-size: 15px;
+    padding: 15px;
+}
